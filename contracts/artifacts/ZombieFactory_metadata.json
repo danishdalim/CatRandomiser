@@ -67,10 +67,10 @@
 	},
 	"sources": {
 		"contracts/CryptoZombie.sol": {
-			"keccak256": "0x0af01648d075ee1eb0a67437fc89b716dcf821b6372e14cd5aa340505cdbd981",
+			"keccak256": "0x4fce45e009ce61e9820372778b9dc49184672f2fde5fed73e4770e2b6f82607c",
 			"urls": [
-				"bzz-raw://404dd4fcf7e67c8104ea23c2b7de82bade04f8063352bb7d2709912f2b5729d3",
-				"dweb:/ipfs/QmVJufA5uTxM7XjxYSW4Pt8JNRrqx5g5ReKVQHVeCffLTV"
+				"bzz-raw://2ffb24037bf9b10cbcc175a568443d1d6636a9fba0d9bbcdfa07e1ace5cf202c",
+				"dweb:/ipfs/QmTo85LNxaov83dQKoDwLwGBSZo2wrimjDN7isVPV4fGqj"
 			]
 		}
 	},
