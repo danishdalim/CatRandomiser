@@ -8,8 +8,8 @@ contract CatRandomizer{ //create contract
     uint colorModulus = 10 ** colorDigits;      //To make sure our car's color is only 16 characters, let's make another uint equal to 10^16. That way we can later use the modulus operator % to shorten an integer to 16 digits
 
     struct Cat {    //structure included in contract
-        uint color;
         string name;
+        uint color;
     } 
 
     Cat[] public cats;  //array to store cat information

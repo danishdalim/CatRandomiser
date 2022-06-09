@@ -29,6 +29,62 @@
 				],
 				"name": "NewCat",
 				"type": "event"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "catToOwner",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "cats",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "name",
+						"type": "string"
+					},
+					{
+						"internalType": "uint256",
+						"name": "color",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_name",
+						"type": "string"
+					}
+				],
+				"name": "createRandomCat",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
 			}
 		],
 		"devdoc": {
@@ -55,10 +111,10 @@
 	},
 	"sources": {
 		"contracts/Contract.sol": {
-			"keccak256": "0x00ad65f5d637ba2197407520afd6efc19b4ee7b5f1a2be85df28c25e08052c06",
+			"keccak256": "0xec85cbe68a5449b25788a1bb7c85328dface9e3d41fccddbb967baadc5369a64",
 			"urls": [
-				"bzz-raw://7178332278c6fc05dfa6675329988864e72be4535511b09ec99fd55065e3f575",
-				"dweb:/ipfs/QmbXqtuDn4SmH1aSsJGRvcXXm1Q65YFWBiJGy5F6cC7oJ6"
+				"bzz-raw://c1d02f7033de887adbaae5a533a9249f7444b7f0a4424b0c840b69a0d4dfb397",
+				"dweb:/ipfs/QmXWDrFYMuSiohHBPr1SNob9RQXAJ7je2mC79en25oy4pK"
 			]
 		}
 	},
