@@ -1,0 +1,66 @@
+{
+	"compiler": {
+		"version": "0.6.0+commit.26b70077"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": false,
+						"internalType": "uint256",
+						"name": "CatId",
+						"type": "uint256"
+					},
+					{
+						"indexed": false,
+						"internalType": "string",
+						"name": "name",
+						"type": "string"
+					},
+					{
+						"indexed": false,
+						"internalType": "uint256",
+						"name": "color",
+						"type": "uint256"
+					}
+				],
+				"name": "NewCat",
+				"type": "event"
+			}
+		],
+		"devdoc": {
+			"methods": {}
+		},
+		"userdoc": {
+			"methods": {}
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/Contract.sol": "CatRandomizer"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/Contract.sol": {
+			"keccak256": "0x00ad65f5d637ba2197407520afd6efc19b4ee7b5f1a2be85df28c25e08052c06",
+			"urls": [
+				"bzz-raw://7178332278c6fc05dfa6675329988864e72be4535511b09ec99fd55065e3f575",
+				"dweb:/ipfs/QmbXqtuDn4SmH1aSsJGRvcXXm1Q65YFWBiJGy5F6cC7oJ6"
+			]
+		}
+	},
+	"version": 1
+}
